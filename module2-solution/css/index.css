@@ -59,11 +59,10 @@ p {
 .card{
     border: 2px solid black;
     background-color:#C1F1FB;
-    width:90%;
+    width:100%;
     min-height: 150px;
-    margin:20px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:0px;
+    margin-right:10px;
     position:relative;
 }
 
@@ -90,6 +89,7 @@ p {
     .col-lg-3{
         width:33%;
         float:left;
+        padding:10px;
     }
 }
 
@@ -98,10 +98,21 @@ p {
     .col-md-2{
         width:50%;
         float:left;
+        padding:10px;
     }
 
     .col-md-1{
         width:100%;
         float:left;
+        padding:10px;
+    }
+}
+
+@media (max-width:767px)
+{
+    .col-sm-12{
+        width:100%;
+        float:left;
+        padding:10px;
     }
 }
