@@ -1,0 +1,47 @@
+ /* ******* Navbar ******* */
+ .navbar {
+    background-color: #e3f2fd;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+ }
+
+ .navbar-brand{
+     font-size:2rem;
+     padding-left:30px;
+     font-weight: 500;
+ }
+
+ .nav-link {
+     padding: 15px;
+     border-bottom: 1px solid grey;
+     font-size: 1.05rem;
+     /* color:rgba(0, 0, 0, 0.801) !important; */
+     font-weight: 500;
+ }
+
+ .nav-item:hover{
+    background-color:#a8dbff;
+ }
+
+
+ /* ******* End of NavBar ******* */
+
+ /* ****** Container ******* */
+
+ .heading{
+     font-size: 1.9rem;
+     font-weight:500;
+     margin-top:20px;
+     margin-bottom: 20px;
+ }
+
+ .dish {
+    background-color: #e3f8bb ;
+    padding-bottom: 12px;
+    padding-top:12px;
+    height: 1000px;
+}
+
+.row > .container-fluid {
+    margin-bottom: 20px;
+}
